@@ -31,6 +31,19 @@ h1 {
   border: 8px solid white;
 }
 
+hr {
+  border: 10px solid #226729;
+}
+
+.img-bills {
+  margin: 0 1em 0 1em;
+}
+
+.img-income {
+  max-width: 200px;
+  margin-left: 200px;
+}
+
 .prices {
   font-weight: 900;
 }
