@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <title>Mint - Sign Up</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-<link href="css/grid.css" rel="stylesheet">
-<link href="css/type.css" rel="stylesheet">
-<link href="css/modules.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="css/modules.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/type.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
 </head>
 <body>
 
@@ -43,10 +43,11 @@
     <section>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1 l-1-2 back-orange island">
-          <h2 class="extra-bold white">Sign Up</h2>
+          <h2 class="exa inline-block">Sign Up</h2>
+          <img class="lock inline-block" src="images/lock.png" alt="">
         </div>
         <div class="unit xs-1 s-1 m-1 l-1-2 text-right back-orange island">
-          <p class="white">Already have an Account?</p>
+          <p>Already have an Account?</p>
           <a class="btn btn-yellow" href="log-in.html">Log In</a>
         </div>
       </div>
@@ -55,8 +56,8 @@
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2 l-1-2">
             <div class="island-1-2">
-              <label for="name">First Name</label>
-              <input id="first" required>
+              <label for="first">First Name</label>
+              <input id="name" required>
             </div>
             <div class="island-1-2">
               <label for="email">Email</label>
@@ -82,7 +83,7 @@
           <div class="unit xs-1 s-1 m-1-2 l-1-2">
             <div class="island-1-2">
               <label for="name">Last Name</label>
-              <input id="last" required>
+              <input id="name" required>
             </div>
             <div class="island-1-2">
               <label for="password">Password</label>
@@ -113,7 +114,13 @@
           <button type="submit">Get Me Started</button>
         </div>
       </form>
-    <section>
+    </section>
+    <section class="embed embed-4by6">
+      <p class="embed-item">Secure</p>
+      <div class="embed embed-4by6">
+        <img class="lock embed-item" src="images/lock.png" alt="">
+      </div>
+    </section>
   </main>
 
   <footer role="contentinfo">
