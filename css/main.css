@@ -27,7 +27,6 @@ h1 {
 .nav a:hover {
   background-color: white;
   color: #226729;
-  font-weight: 900;
   border: 8px solid white;
 }
 
@@ -36,16 +35,12 @@ hr {
 }
 
 .img-bills {
-  margin: 0 1em 0 1em;
+  margin: 0 1em;
 }
 
 .img-income {
   max-width: 200px;
   margin-left: 200px;
-}
-
-.prices {
-  font-weight: 900;
 }
 
 .banner-img {
@@ -57,21 +52,15 @@ hr {
 }
 
 .btn-yellow {
-  background-color: #DCD51F;
-  border: 1px solid #DCD51F;
-  border-radius: 0px;
-  font-weight: 900;
+  background-color: #dcd51f;
+  border: 1px solid #dcd51f;
+  border-radius: 1px;
 }
 
 .btn-orange {
-  background-color: #E98D23;
-  border: 1px solid #E98D23;
-  border-radius: 0px;
-  font-weight: 900;
-}
-
-.extra-bold {
-  font-weight: 900;
+  background-color: #e98d23;
+  border: 1px solid #e98d23;
+  border-radius: 1px;
 }
 
 .white {
@@ -79,7 +68,7 @@ hr {
 }
 
 .back-blue {
-  background-color: #2EC1D4;
+  background-color: #2ec1d4;
 }
 
 .back-green {
@@ -87,15 +76,15 @@ hr {
 }
 
 .back-yellow {
-  background-color: #DCD51F;
+  background-color: #dcd51f;
 }
 
 .back-orange {
-  background-color: #E98D23;
+  background-color: #e98d23;
 }
 
 .back-red {
-  background-color: #D44860;
+  background-color: #d44860;
 }
 
 .back-white {
@@ -168,6 +157,7 @@ footer {
 .i-twitter {
   background-image: url("../images/i-twitter.svg");
 }
+
 .i-insta {
   background-image: url("../images/i-insta.svg");
 }
